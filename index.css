@@ -1,0 +1,63 @@
+body{
+    font-family: 'Happy Monkey', cursive;
+    color: white;
+    background: linear-gradient(rgb(135, 250, 225), rgb(232, 29, 195));
+    background-color: rgba(105, 20, 98, 0.452);
+    text-align: center;
+}
+#img1{
+    border-radius: 50%;
+    height: 350px;
+    width: 300px;
+    border: 5px solid rgb(228, 106, 13);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#same{
+    text-shadow: 3px 3px 5px black;
+    background-color: rgb(105, 208, 138);
+    padding: 5px 8px;
+    margin:5px;
+    border-radius: 5px;
+    
+}
+#same1{
+    text-shadow: 3px 3px 5px black;
+}
+#happy-text, #click-text{
+    text-shadow: 3px 3px 5px black;
+}
+.gftcover{
+    margin:0px auto;
+    width: 400px;
+    height: 400px;
+    background-image: url('gift-cover.jpg');
+    background-size: cover;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+.gftcover:hover{
+    background-image: url("bday-752.gif");
+}
+#cover2:hover{
+    background-image: url("pic.jpg");
+}
+#cover3:hover{
+    background-image: url("saree.jpg");
+}
+#last1{
+    height: 230px;
+    
+}
+#last1:hover{
+    background-image: url("love.gif");
+}
+p{
+    text-shadow: 5px 3px 5px rgb(156, 35, 35);
+    font-weight: bold;
+    color: rgb(187, 222, 239);
+    text-align: center;
+}
